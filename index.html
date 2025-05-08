@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kanban Board</title>
+  <link rel="stylesheet" href="styles.css" />
+ </head>
+
+ <body>
+  <!-- Navigation Sidebar -->
+  <nav class="sidebar">
+    <div>
+      <img class="desktop-only" src="./assets/logo-light.svg" alt="Kanban Board Logo" />
+      <h4 id="side-heading">ALL BOARDS (1)</h4>
+      <button class="desktop-btn">Launch Career</button>
+    </div>
+  </nav>
+
+  <!-- Main Layout -->
+  <div>
+    <header class="heading">
+      <img class="mobile-only" src="./assets/favicon.svg" alt="Mobile Kanban Logo" />
+      <div>
+        <h2 class="header-heading">Launch Career</h2>
+      </div>
+    </header>
+
+    <div class="main-body">
+      <main class="list-section">
+        <!-- TODO Column -->
+        <div>
+          <div class="balls">
+            <span id="ball-1"></span>
+            <h4 class="ball-container">TODO (2)</h4>
+          </div>
+          <div class="task-container">
+            <div class="tasks">Launch Epic Career 🚀</div>
+            <div class="tasks">Learn Data Structures and Algorithms 📚</div>
+          </div>
+        </div>
+
+        <!-- DOING Column -->
+        <div>
+          <div class="balls">
+            <span id="ball-2"></span>
+            <h4 class="ball-container">DOING (2)</h4>
+          </div>
+          <div class="task-container">
+            <div class="tasks">Master JavaScript 💛</div>
+            <div class="tasks">Keep on Going 🏆</div>
+          </div>
+        </div>
+
+        <!-- DONE Column -->
+        <div>
+          <div class="balls">
+            <span id="ball-3"></span>
+            <h4 class="ball-container">DONE (2)</h4>
+          </div>
+          <div class="task-container">
+            <div class="tasks">Contribute to Open Source Projects 🌐</div>
+            <div class="tasks">Build Portfolio Projects 🛠️</div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+ </body>
+</html>
