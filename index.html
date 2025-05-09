@@ -1,72 +1,75 @@
-<!DOCTYPE html>
-<html lang="en">
- <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kanban Board</title>
-  <link rel="stylesheet" href="styles.css" />
- </head>
-
- <body>
-  <!-- Navigation Sidebar -->
-  <nav class="sidebar">
-    <div>
-      <img class="desktop-only" src="./assets/logo-light.svg" alt="Kanban Board Logo" />
-      <h4 id="side-heading">ALL BOARDS (1)</h4>
-      <button class="desktop-btn">Launch Career</button>
-    </div>
-  </nav>
-
-  <!-- Main Layout -->
-  <div>
-    <header class="heading">
-      <img class="mobile-only" src="./assets/favicon.svg" alt="Mobile Kanban Logo" />
-      <div>
-        <h2 class="header-heading">Launch Career</h2>
+<!Doctype html>
+ <html lang="en">
+  <head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="./styles.css" />
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon.svg" />
+<script defer src="./scripts.js"></script>
+<title>Kanban Task Management</title>
+</head>
+<body>
+<!-- Navigation Sidebar: Contains the logo, navigation links for boards, and theme toggle. -->
+    <nav class="side-bar" id="side-bar-div">
+      <div id="side-logo-div">
+        <img id="logo" src="./assets/logo-light.svg" alt="logo-light" />
+          </div>
+<div class="boards-nav-links-div" id="boards-nav-links-div">
+  <h4 id="headline-sidepanel">ALL BOARDS (1)</h4>
+    <button class="board-btn">Launch Career</button>
       </div>
-    </header>
-
-    <div class="main-body">
-      <main class="list-section">
-        <!-- TODO Column -->
-        <div>
-          <div class="balls">
-            <span id="ball-1"></span>
-            <h4 class="ball-container">TODO (2)</h4>
-          </div>
-          <div class="task-container">
-            <div class="tasks">Launch Epic Career 🚀</div>
-            <div class="tasks">Learn Data Structures and Algorithms 📚</div>
-          </div>
-        </div>
-
-        <!-- DOING Column -->
-        <div>
-          <div class="balls">
-            <span id="ball-2"></span>
-            <h4 class="ball-container">DOING (2)</h4>
-          </div>
-          <div class="task-container">
-            <div class="tasks">Master JavaScript 💛</div>
-            <div class="tasks">Keep on Going 🏆</div>
-          </div>
-        </div>
-
-        <!-- DONE Column -->
-        <div>
-          <div class="balls">
-            <span id="ball-3"></span>
-            <h4 class="ball-container">DONE (2)</h4>
-          </div>
-          <div class="task-container">
-            <div class="tasks">Contribute to Open Source Projects 🌐</div>
-            <div class="tasks">Build Portfolio Projects 🛠️</div>
-          </div>
-        </div>
-      </main>
+       </nav>
+<!-- Main Layout: Header with board title, add task button, and main content area for task columns. -->
+    <div id="layout">
+      <header id="header" class="sticky-header">
+        <div class="header-name-div">
+  <img src="./assets/favicon.svg" alt="logo-mobile" class="logo-mobile"/>
+  <h2 class="header-board-name" id="header-board-name"> Launch Career</h2>
+    </div>
+       </header>
+        <div class="container">
+         <main class="card-column-main">
+<!-- Task Columns: Display tasks grouped by status (TODO, DOING, DONE). -->
+      <div class="column-div" data-status="todo">
+        <div id="todo-head-div" class="column-head-div">
+          <span class="dot" id="todo-dot"></span>
+            <h4 id="toDoText" class="columnHeader">TODO (4)</h4>
+            </div>
+<!-- Tasks container for TODO -->
+  <div class="tasks-container">
+   <div class="task-div">Launch Epic Career 🚀</div>
+  <div class="task-div">Conquer React⚛️</div>
+  <div class="task-div">Understand Databases⚙️</div>
+  <div class="task-div">Crush Frameworks🖼️</div>
+    </div>
+       </div>
+          <!-- DOING Column -->
+          <div class="column-div" data-status="doing">
+            <div id="doing-head-div" class="column-head-div">
+              <span class="dot" id="doing-dot"></span>
+               <h4 id="doingText" class="columnHeader">DOING (2)</h4>
+               </div>
+<!-- Tasks container for DOING -->
+   <div class="tasks-container">
+      <div class="task-div">Master JavaScript 💛</div>
+          <div class="task-div">Never Give Up 🏆</div>
     </div>
   </div>
-
-  <script src="scripts.js"></script>
- </body>
-</html>
+<!-- DONE Column -->
+<div class="column-div" data-status="done">
+  <div id="done-head-div" class="column-head-div">
+   <span class="dot" id="done-dot"></span>
+      <h4 id="doneText" class="columnHeader">DONE (2)</h4>
+        </div>
+<!-- Tasks container for DONE -->
+      <div class="tasks-container">
+          <div class="task-div">Explore ES6 Features 🚀</div>
+              <div class="task-div">Have fun 🥳</div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+  </html>
