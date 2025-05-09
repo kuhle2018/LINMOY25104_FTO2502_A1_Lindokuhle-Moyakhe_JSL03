@@ -9,6 +9,18 @@
 
 This project involves creating a **simple task management system** where users can add **up to three new tasks** to an existing task array. Tasks are **stored as objects in an array**, each with a **unique incremental ID**. Users will enter task details via prompts, and the system will allow filtering to view only completed tasks. The project focuses on **array manipulation, user interaction via prompts and alerts, and console logging for task management**.
 
+## List of techonolgies used!
+- Html
+- Css
+- Javascript
+
+## Set up instructions
+- Go to my github : **https://github.com/kuhle2018/LINMOY25104_FTO2502_A1_Lindokuhle-Moyakhe_JSL03.git**
+- Fork the repository.
+- Clone the repository. 
+- Ensure Html,Css , Javascript and live server extensions are installed before getting started.
+
+
 ## Key Objectives
 
 ### Logic & User Interaction
@@ -35,4 +47,4 @@ A **structured and limited task management system** that enables users to add, r
 
 **Console Log of all and completed tasks**
 
-![console log](./explainer-images/console%20log.png)
+![console log]: (https://github.com/kuhle2018/LINMOY25104_FTO2502_A1_Lindokuhle-Moyakhe_JSL03/blob/main/my%20console%20log.png?raw=true)
