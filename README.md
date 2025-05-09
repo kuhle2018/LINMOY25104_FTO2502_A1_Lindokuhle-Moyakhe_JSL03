@@ -1,7 +1,6 @@
 # JSL03 Project Brief: Console-Based Task Manager
 
 ## Important Prerequisite
-
 1. I have reviewed and corrected my JSL02 project using the provided solution.
 2. Task entry prompts are fully functional, ensuring proper validation checks for accurate user input.
 3. I have reviewed the project user stories in my student dashboard to understand each required feature.
@@ -52,12 +51,10 @@ This project establishes a simple yet structured task management system, enablin
 - Clone the repository. 
 - Ensure HTML,CSS,JAVASCRIPT and live server extensions are installed before getting started.
 
-
 ## Expected Outcome
-
 - A **structured and limited task management system** that enables users to add, review, and filter tasks efficiently 
 while ensuring **clean, well-documented, and maintainable code.**
 
 **Console Log of all and completed tasks**
 
-![console log]: (https://github.com/kuhle2018/LINMOY25104_FTO2502_A1_Lindokuhle-Moyakhe_JSL03/blob/main/my%20console%20log.png?raw=true)
+![console log](https://github.com/kuhle2018/LINMOY25104_FTO2502_A1_Lindokuhle-Moyakhe_JSL03/blob/main/my%20console%20log.png?raw=true)
