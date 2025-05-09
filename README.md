@@ -2,28 +2,28 @@
 
 ## Important Prerequisite
 
-1. Before starting this challenge, make sure you have reviewed and corrected your JSL02 project using the provided solution. Your prompts for entering task details should be fully functional and include proper validation checks to ensure accurate user input.
-2. **Check the project user stories in your student dashboard**, make sure you understand what is required for each feature.
+1. I have reviewed and corrected my JSL02 project using the provided solution.
+2. Task entry prompts are fully functional, ensuring proper validation checks for accurate user input.
+3. I have reviewed the project user stories in my student dashboard to understand each required feature.
+
 
 ## Overview
+This project establishes a simple yet structured task management system, enabling users to add up to three new tasks to an existing task array. Each task is stored as an object within the array, uniquely identified by an incremental ID for seamless tracking.
 
-This project involves creating a **simple task management system** where users can add **up to three new tasks** to an existing task array. Tasks are **stored as objects in an array**, each with a **unique incremental ID**. Users will enter task details via prompts, and the system will allow filtering to view only completed tasks. The project focuses on **array manipulation, user interaction via prompts and alerts, and console logging for task management**.
+### Core Functionalities:
+- Task Entry via Prompts: Users input details such as title, description, and status directly.
+- Validation & Alerts: Ensures proper input handling and notifies users when the task limit is reached.
+- Task Filtering: Allows users to view only completed tasks for streamlined management.
+- Console Logging: Displays all tasks in an organized manner, with a dedicated section for completed tasks.
 
-## List of techonolgies used!
-- Html
-- Css
-- Javascript
-
-## Set up instructions
-- Go to my github : **https://github.com/kuhle2018/LINMOY25104_FTO2502_A1_Lindokuhle-Moyakhe_JSL03.git**
-- Fork the repository.
-- Clone the repository. 
-- Ensure Html,Css , Javascript and live server extensions are installed before getting started.
-
+### Key Focus Areas:
+- Array Manipulation: Efficiently managing tasks within structured data.
+- User Interaction: Handling input through prompts and providing responsive feedback.
+- Task Status & Filtering: Enhancing usability by enabling users to focus on completed tasks.
 
 ## Key Objectives
 
-### Logic & User Interaction
+## Logic & User Interaction
 
 - Store tasks as **objects inside an array** for structured data management.
 - Allow users to **add up to three new tasks** to the existing task list.
@@ -37,13 +37,26 @@ This project involves creating a **simple task management system** where users c
 
 ## Code Quality & Maintainability
 
-- Use meaningful variable and function names to ensure readability and maintainability.
-- Follow consistent indentation and formatting to enhance code clarity.
-- Include comments explaining key logic and functionality to support future modifications.
+- Meaningful variable and function names enhance readability and maintainability.
+- Consistent indentation and formatting ensure clarity in code structure.
+- Comments explain key logic and functionality, making future modifications easier.
+
+## Languages Used !
+- HTML
+- CSS
+- JAVASCRIPT
+
+## Set Up For Project
+- Go to my github : **https://github.com/kuhle2018/LINMOY25104_FTO2502_A1_Lindokuhle-Moyakhe_JSL03.git**
+- Fork the repository.
+- Clone the repository. 
+- Ensure HTML,CSS,JAVASCRIPT and live server extensions are installed before getting started.
+
 
 ## Expected Outcome
 
-A **structured and limited task management system** that enables users to add, review, and filter tasks efficiently while ensuring **clean, well-documented, and maintainable code.**
+- A **structured and limited task management system** that enables users to add, review, and filter tasks efficiently 
+while ensuring **clean, well-documented, and maintainable code.**
 
 **Console Log of all and completed tasks**
 
